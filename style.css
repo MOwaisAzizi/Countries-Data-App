@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin-top: 20px;
 }
 
 .countries {
@@ -75,7 +76,7 @@ body {
 }
 
 .country__data {
-  padding: 2.5rem 3.75rem 3rem 3.75rem;
+  padding: 2rem 3rem 3rem 3rem;
 }
 
 .country__name {
@@ -96,7 +97,7 @@ body {
 
 .country__row span {
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 1.5rem;
   font-size: 2.4rem;
 }
 
@@ -131,8 +132,14 @@ body {
   margin-top: 10px;
   font-size: 30px;
 }
+h2{
+  text-align: center;
+  font-size: 40px;
+}
 @media screen and (max-width: 400px) {
   .country {
-    width: 29rem;
+    width: 28.5rem;
+  }.h2{
+    font-size: 25px;
   }
 }
